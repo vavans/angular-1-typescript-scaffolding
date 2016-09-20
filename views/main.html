@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="planetApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>My HTML File</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+  <script src="javascripts/angular-route.js"></script>
+
+  <script src="/app.js"></script>
+  <script src="/planet.module.js"></script>
+  <script src="/app.config.js"></script>
+  <script src="/db/db.js"></script>
+  <script src="/main/main.component.js"></script>
+  <script src="/planet-list/planet-list.component.js"></script>
+  <script src="/planet-details/planet-details.component.js"></script>
+</head>
+
+<body>
+    <div ng-view></div>
+</body>
+
+</html>

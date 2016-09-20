@@ -1,0 +1,8 @@
+# Dependencies
+/node_modules/
+**/typings/
+/bin
+
+# Compiled file
+**/*.js
+**/*.js.map
